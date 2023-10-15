@@ -21,3 +21,29 @@
     0% { transform: scale(1); }
     100% { transform: scale(1.2); }
 }
+/* Media query para tamaños de pantalla de 768px a 1023px (Tabletas) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .mi-elemento,
+    .mi-imagen {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+/* Media query para tamaños de pantalla de 480px a 767px (Dispositivos móviles en orientación horizontal) */
+@media (min-width: 480px) and (max-width: 767px) {
+    .mi-elemento,
+    .mi-imagen {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+/* Media query para tamaños de pantalla de hasta 479px (Dispositivos móviles en orientación vertical) */
+@media (max-width: 479px) {
+    .mi-elemento,
+    .mi-imagen {
+        width: 40px;
+        height: 40px;
+    }
+}
