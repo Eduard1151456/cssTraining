@@ -3,6 +3,11 @@
     height: 100px;
     background-color: blue;
     animation: mi-animacion 2s ease infinite;
+}
+
+.mi-imagen {
+    width: 100px;
+    height: 100px;
     animation: animacion-imagen 2s ease-in-out infinite alternate;
 }
 
@@ -11,6 +16,7 @@
     50% { transform: scale(1.2); }
     100% { transform: scale(1); }
 }
+
 @keyframes animacion-imagen {
     0% { transform: scale(1); }
     100% { transform: scale(1.2); }
