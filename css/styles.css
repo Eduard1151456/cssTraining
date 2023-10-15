@@ -3,6 +3,7 @@
     height: 100px;
     background-color: blue;
     animation: mi-animacion 2s ease infinite;
+    animation: animacion-imagen 2s ease-in-out infinite alternate;
 }
 
 @keyframes mi-animacion {
