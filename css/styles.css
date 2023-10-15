@@ -25,8 +25,8 @@
 @media (min-width: 768px) and (max-width: 1023px) {
     .mi-elemento,
     .mi-imagen {
-        width: 80px;
-        height: 80px;
+        width: 120%;
+        height: auto;
     }
 }
 
@@ -34,8 +34,8 @@
 @media (min-width: 480px) and (max-width: 767px) {
     .mi-elemento,
     .mi-imagen {
-        width: 60px;
-        height: 60px;
+        width: 120%;
+        height: auto;
     }
 }
 
@@ -43,7 +43,7 @@
 @media (max-width: 479px) {
     .mi-elemento,
     .mi-imagen {
-        width: 40px;
-        height: 40px;
+        width: 120%;
+        height: auto;
     }
 }
