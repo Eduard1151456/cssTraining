@@ -1,0 +1,12 @@
+.mi-elemento {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: mi-animacion 2s ease infinite;
+}
+
+@keyframes mi-animacion {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
