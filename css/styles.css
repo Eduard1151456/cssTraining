@@ -2,13 +2,13 @@
     width: 100px;
     height: 100px;
     background-color: blue;
-    animation: mi-animacion 2s ease infinite;
+    animation: mi-animacion 2s ease infinite, rotacion 4s linear infinite; /* Agregar la animación de rotación */
 }
 
 .mi-imagen {
     width: 100px;
     height: 100px;
-    animation: animacion-imagen 2s ease-in-out infinite alternate;
+    animation: animacion-imagen 2s ease-in-out infinite alternate, rotacion 4s linear infinite; /* Agregar la animación de rotación */
 }
 
 @keyframes mi-animacion {
@@ -21,6 +21,12 @@
     0% { transform: scale(1); }
     100% { transform: scale(1.2); }
 }
+
+@keyframes rotacion {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 /* Media query para tamaños de pantalla de 768px a 1023px (Tabletas) */
 @media (min-width: 768px) and (max-width: 1023px) {
     .mi-elemento,
